@@ -1,0 +1,19 @@
+body {
+    background-color: #111111;
+}
+
+h1 {
+    color: #FFFFFF;
+    /* Not all devices support every font in the internet, so its better to use more than 1 font */
+    font-family: "press Start 2P", "consolas", sans-serif;
+}
+
+p {
+    color: #00FF73;
+    font-family: "consolas", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    /* text-decoration: enable line below the words */
+    text-decoration: cyan dotted underline;
+    font-size: 18px;
+}
