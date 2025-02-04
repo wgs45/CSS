@@ -9,11 +9,14 @@ h1 {
 }
 
 p {
+    /* Set the color of the content */
     color: #00FF73;
     font-family: "consolas", sans-serif;
+    /* There are some font styles available */
     font-style: italic;
+    /* Set the thickness of the fonts */
     font-weight: bold;
-    /* text-decoration: enable line below the words */
+    /* Set underline below the words */
     text-decoration: cyan dotted underline;
     font-size: 18px;
 }

@@ -1,0 +1,21 @@
+h1 {
+    /* It's also possible to set individual border styles */
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-top-style: double;
+    border-left-width: 10px;
+    border-left-color: silver;
+}
+
+p {
+    /* There are many different styles of border available */
+    border-style: solid;
+    /* Set the thickness of the border */
+    border-width: 5px;
+    /* Set the foreground color fo the border */
+    border-color: gold;
+    /* Set the corner of the border radius */
+    border-radius: 10px;
+    /* Set the space between the inside content (words) and the inside border */
+    padding: 5px;
+}
