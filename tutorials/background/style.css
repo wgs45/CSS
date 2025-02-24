@@ -1,0 +1,23 @@
+body {
+  background-image: url("./image/bg.jpg");
+  background-repeat: no-repeat; /* Sets how background images are repeated. */
+  background-attachment: fixed; /* sets whether a background image's position is fixed within the viewport, or scrolls with its containing block. */
+  background-position: center; /* Sets the position of the background. */
+  background-size: cover; /* Sets the size of the background */
+}
+
+h1 {
+  background: linear-gradient(
+    to right,
+    skyblue,
+    lightgreen
+  ); /* creates an image consisting of a progressive transition between two or more colors along a straight line. */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+p {
+  background: linear-gradient(to left, skyblue, lightgreen);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
